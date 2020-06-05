@@ -33,10 +33,11 @@ class K:
         for i in range(0, len(self.factors)):
             item_list = self.__count(item_list, self.factors[i]) 
         return math.prod(item_list) 
-
-print( K(3, 6).get() )       # 6
-print( K(20, 70, 15).get() ) # 420
-print( K(72, 99).get() )     # 792
+    
+if __name__ == "__main__":
+    print( K(3, 6).get() )       # 6
+    print( K(20, 70, 15).get() ) # 420
+    print( K(72, 99).get() )     # 792
 
  
 
