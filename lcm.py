@@ -1,4 +1,4 @@
-import math
+import math # using a new function .prod (Python 3.8 +) 
 
 class K:
     def __init__(self, *numbers):
