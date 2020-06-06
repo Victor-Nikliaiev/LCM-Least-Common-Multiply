@@ -1,6 +1,6 @@
 # LCM (Least Common Multiply)
 ___
-> This class can help you to compute a least common multiply
+> This class can help you to compute a least common multiply with the object variable __```lcm```__
 
 __In Addition following variables of object show some results of computing such as__:
 
